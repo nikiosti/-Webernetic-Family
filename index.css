@@ -73,7 +73,8 @@ body {
   width: 100%;
   background-color: var(--color-primary);
   border-radius: var(--radius-large);
-  padding: var(--spacing-medium) var(--spacing-medium) var(--spacing-medium) var(--spacing-xlarge);
+  padding: var(--spacing-medium) var(--spacing-medium) var(--spacing-medium)
+    var(--spacing-xlarge);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -205,8 +206,8 @@ body {
 }
 
 .modal__button--signup {
+  margin-top: 4px;
   background-color: var(--color-white);
   color: var(--color-primary);
   border: 1px solid var(--color-primary);
 }
-
