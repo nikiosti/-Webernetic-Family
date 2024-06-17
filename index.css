@@ -83,6 +83,9 @@ body {
   .main {
     flex-wrap: wrap;
   }
+  .main__block {
+    margin: 24px;
+  }
 }
 
 #modal {
