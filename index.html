@@ -18,7 +18,7 @@
                     2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить </p>
             </div>
 
-            <div class="main__button">
+            <div class="main__button" id="modal__button">
                 <span class="main__button_content">
                     Попробовать бесплатно
                 </span>
@@ -31,6 +31,43 @@
             <img src="./public/title.png" />
         </div>
     </div>
+
+
+
+    <div id="modal">
+        <div class="modal__wrapper">
+            <div class="modal__content">
+                <div class="modal__close" id="closeButton">
+                    <img src="./public/x.svg" />
+                </div>
+                <div class="modal__title">
+                    Войти в систему
+                </div>
+                <div class="body">
+                    <form>
+
+                        <input type="text" placeholder="Email/ Телефон" class="modal__input_email" />
+
+                        <input type="password" placeholder="Пароль" class="modal__input_password" />
+                        <div class="modal__checkbox">
+                            <input type="checkbox" class="modal__checkbox_check" />
+                            <span class="modal__checkbox_text">
+                                Запомнить пароль
+                            </span>
+                        </div>
+
+                        <a href="#" id="restorePassword" class="modal__restore">Восстановить</a>
+                        <button class="modal__button_signin">Войти</button>
+                        <button class="modal__button_signup">Зарегестрироваться</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
 
 </body>
 
